@@ -18,4 +18,8 @@ public class App
         }
         System.out.println( "Hello Alauda - Maven !" );
     }
+
+    public void test(){
+        System.out.print("sssss");
+    }
 }
