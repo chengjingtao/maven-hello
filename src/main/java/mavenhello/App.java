@@ -12,6 +12,10 @@ public class App
         if (abc == "111"){
             System.out.println("ooo");
         }
+
+        if (abc != "111"){
+            System.out.println("dddd);
+        }
         System.out.println( "Hello Alauda - Maven !" );
     }
 }
