@@ -35,4 +35,9 @@ public class AppTest
     {
         assertTrue( true );
     }
+
+    public void testAdd()
+    {
+        assertTrue(new App().Add(1,2)==3);
+    }
 }
