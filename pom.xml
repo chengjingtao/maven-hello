@@ -17,7 +17,33 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
-
+  
+<repositories>
+<repository>
+  <id>public</id>
+  <url>https://pkgs.dev.azure.com/daniel0435/DevOps/_packaging/public/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+</repositories>
+  
+<distributionManagement>
+<repository>
+  <id>public</id>
+  <url>https://pkgs.dev.azure.com/daniel0435/DevOps/_packaging/public/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+</distributionManagement>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
