@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_maven_hello_1758705521195-pr-trigger-input-set
+  identifier: Build_maven_hello_1758705521195prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_maven_hello_1758705521195
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
