@@ -28,7 +28,7 @@ pipeline:
   properties:
     ci:
       codebase:
-        connectorRef: github
+        connectorRef: <+input>
         repoName: <+input>
         build: <+input>
         sparseCheckout: []
