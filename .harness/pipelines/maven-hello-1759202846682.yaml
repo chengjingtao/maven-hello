@@ -29,5 +29,6 @@ pipeline:
     ci:
       codebase:
         connectorRef: github
-        repoName: maven-hello
+        repoName: <+input>
         build: <+input>
+        sparseCheckout: []
